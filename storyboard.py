@@ -81,7 +81,7 @@ def _render_typewriter_text(
 SCENE_CAPTIONS = {
     "scene-1.png": "Nãooo!!! Adormeci!Não posso faltar mais!\nTenho de me despachar!!!",
     "scene-2.png": "Agora vai começar a chover... mas não posso esperar, tenho de continuar!!!",
-    "scene-3.png": "Nuno: - Stôr, o Rafa vai chegar atrasado...\nProfessor: - Outra vez!?!? Já chega! Diz-lhe que vai ter falta!",
+    "scene-3.png": "Nuno: - Stôr, o Rafa vai chegar atrasado...\nProfessor: - Outra vez!?!? Já chega! Vai ter falta!",
     "scene-4.png": "Ganda Rafa!!! SIX-SEVEN!!!",
     "scene-gameover.png": "Já não consigo...o Stôr vai-me matar!"
 }

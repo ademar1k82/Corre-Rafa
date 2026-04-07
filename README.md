@@ -5,6 +5,13 @@ Jogo 2D em Python com Pygame no estilo runner, com campanha por níveis, storybo
 
 O jogador controla o Rafa, evita obstáculos, gere velocidade, ganha/ perde pontos e recebe bónus por tempo restante no fim de cada nível.
 
+## Screenshots
+
+![Menu Principal](screenshots/01-menu.png)
+![Gameplay](screenshots/02-gameplay.png)
+![Story](screenshots/03-story.png)
+![Game Over](screenshots/04-gameover.png)
+
 ## Jogar (Windows)
 
 ### Opção 1: Executável Standalone (Recomendado)
