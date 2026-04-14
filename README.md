@@ -17,7 +17,11 @@ O jogador controla o Rafa, evita obstáculos, gere velocidade, ganha/ perde pont
 ### Opção 1: Executável Standalone (Recomendado)
 - Não necessita Python instalado
 - Duplo clique em `dist/CorreRafa.exe` na pasta do projeto
-- Para atalho no Ambiente de Trabalho: copiar `Corre Rafa.lnk` para o Desktop ou arrastar `dist/CorreRafa.exe` para o Desktop
+- O executável deve usar o ícone embutido a partir de `assets/toggle.ico`
+- Quem descarregar o `.zip` do repositório já leva consigo `dist/CorreRafa.exe`
+- Para gerar/atualizar o executável com o ícone correto: `powershell -ExecutionPolicy Bypass -File .\build_exe.ps1`
+- Para criar o atalho no Ambiente de Trabalho com duplo clique: executar `criar_atalho_desktop.cmd`
+- Em alternativa, via PowerShell: `powershell -ExecutionPolicy Bypass -File .\create_desktop_shortcut.ps1`
 
 ### Opção 2: Python (Desenvolvimento)
 Requisitos:
@@ -61,6 +65,8 @@ No fim da campanha:
 
 ## Estrutura (resumo)
 - `game_logic.py`: loop principal e fluxo da campanha
+- `build_exe.ps1`: rebuild do executável Windows com PyInstaller e ícone embutido
+- `criar_atalho_desktop.cmd`: cria no Ambiente de Trabalho um atalho para `dist/CorreRafa.exe`
 - `entities.py`: classes do jogo (`Player`, `Obstaculo`, `Chuva`)
 - `screens.py`: ecrãs gerais (banner, menu, fim de campanha)
 - `info_screen.py`: submenu e páginas do Info
